@@ -1,16 +1,74 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🌸 Luna – Period Tracker
 
-Currently, two official plugins are available:
+Luna is a menstrual cycle tracking application built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Dashboard with cycle tracking and period predictions
+- Interactive menstrual calendar
+- Period history and date logging
+- Daily symptom and mood tracking
+- Pain level tracking
+- Cycle statistics and charts
+- Health Library with scientific articles
+- Personalized cycle settings
+- Local data storage and JSON export
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router
+- React Icons
+- Recharts
+- Bootstrap
+- Europe PMC REST API
+- localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/Ramla-ctrl/luna-period-tracker.git
+
+2. Open the project folder:
+
+   cd luna-period-tracker
+
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL shown in the terminal.
+
+## API
+
+Luna uses the Europe PMC REST API to retrieve
+scientific articles about menstrual health.
+
+API requests use fetch and async/await.
+
+## Privacy
+
+Cycle and symptom data are stored locally
+in the user's browser using localStorage.
+
+## Disclaimer
+
+Cycle predictions are estimates and should not
+be used for contraception or medical diagnosis.
+
+## Live Application
+
+https://ramla-ctrl.github.io/luna-period-tracker/
+
+## GitHub Repository
+
+https://github.com/Ramla-ctrl/luna-period-tracker

@@ -4,5 +4,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: process.env.NODE_ENV === 'production'
+  ? '/luna-period-tracker/'
+  : '/',
 })
